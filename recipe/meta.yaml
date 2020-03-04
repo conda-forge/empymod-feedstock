@@ -1,5 +1,5 @@
 {% set name = "empymod" %}
-{% set version = "1.10.5" %}
+{% set version = "1.10.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,13 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6906d6a055e1284698ef668c735a253fbf2dfb6c91ae4c2b41a925d4388bdfae
+  sha256: 20f02dbe5bba7868c14e4eea0b48ca227fb694fa2a13e4e5572a1ee28055413b
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
-  preserve_egg_dir: True
+  script: {{ PYTHON }} -m pip install . -vv
+  preserve_egg_dir: true
 
 requirements:
   host:
@@ -32,10 +32,10 @@ test:
 
 about:
   home: https://empymod.github.io
-  license: "Apache Software"
+  license: Apache Software
   license_family: APACHE
   license_file: LICENSE
-  summary: "Open-source full 3D electromagnetic modeller for 1D VTI media"
+  summary: Open-source full 3D electromagnetic modeller for 1D VTI media
   description: |
     The electromagnetic modeller empymod can model electric or magnetic
     responses due to a three-dimensional electric or magnetic source in a
