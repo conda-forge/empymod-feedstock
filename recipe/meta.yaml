@@ -18,11 +18,12 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.5
+    - python >=3.6
     - setuptools_scm
   run:
+    - numba
     - numpy
-    - python >=3.5
+    - python >=3.6
     - scipy >=1.0.0
 
 test:
