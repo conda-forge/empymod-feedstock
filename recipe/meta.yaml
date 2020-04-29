@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://empymod.github.io
-  license: Apache License 2.0
+  license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
   summary: Open-source full 3D electromagnetic modeller for 1D VTI media
