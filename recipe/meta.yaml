@@ -13,7 +13,6 @@ build:
   noarch: python
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
-  preserve_egg_dir: true
 
 requirements:
   host:
@@ -21,8 +20,7 @@ requirements:
     - python >=3.6
     - setuptools_scm
   run:
-    - numba
-    - numpy
+    - numba >=0.44
     - python >=3.6
     - scipy >=1.0.0
 
