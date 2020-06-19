@@ -1,5 +1,5 @@
 {% set name = "empymod" %}
-{% set version = "2.0.0" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,13 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ad5e4d519db0fb4dcfe22a3395e9473c1d57ebd95ac931ec9b3aa50f94ad9d0b
+  sha256: f78eb017be4e65b6994b6c07007b1754ccba7e20a547e1670afcd844ad6dad70
 
 build:
   noarch: python
   number: 0
   script: {{ PYTHON }} -m pip install . -vv
-  preserve_egg_dir: true
 
 requirements:
   host:
@@ -21,8 +20,7 @@ requirements:
     - python >=3.6
     - setuptools_scm
   run:
-    - numba
-    - numpy
+    - numba >=0.44
     - python >=3.6
     - scipy >=1.0.0
 
