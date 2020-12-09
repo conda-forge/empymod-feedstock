@@ -5,9 +5,13 @@ Home: https://empymod.github.io
 
 Package license: Apache-2.0
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/empymod-feedstock/blob/master/LICENSE.txt)
 
 Summary: Open-source full 3D electromagnetic modeller for 1D VTI media
+
+Development: https://github.com/empymod/empymod
+
+Documentation: https://empymod.readthedocs.io/
 
 The electromagnetic modeller empymod can model electric or magnetic
 responses due to a three-dimensional electric or magnetic source in a
