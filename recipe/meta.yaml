@@ -1,5 +1,5 @@
 {% set name = "empymod" %}
-{% set version = "2.0.4" %}
+{% set version = "2.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c9286b1a60f92857b882725dcdb5662d73326c76b142f96c17cc866fb5573e5a
+  sha256: 801379fbff6d6d5ede1d9e1a33f13b3eb923b31ae4573f660e766f50a6a118e7
 
 build:
   noarch: python
