@@ -1,7 +1,7 @@
 About empymod
 =============
 
-Home: https://empymod.github.io
+Home: https://emsig.github.io
 
 Package license: Apache-2.0
 
@@ -9,7 +9,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/empymod-feedsto
 
 Summary: Open-source full 3D electromagnetic modeller for 1D VTI media
 
-Development: https://github.com/empymod/empymod
+Development: https://github.com/emsig/empymod
 
 Documentation: https://empymod.readthedocs.io/
 
