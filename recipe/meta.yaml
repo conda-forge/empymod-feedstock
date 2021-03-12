@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -30,7 +30,7 @@ test:
     - empymod.scripts
 
 about:
-  home: https://empymod.github.io
+  home: https://emsig.github.io
   license: Apache-2.0
   license_family: APACHE
   license_file: LICENSE
@@ -45,7 +45,7 @@ about:
     Fourier-transform methods are included to transform the responses into the
     space-frequency and space-time domains.
   doc_url: https://empymod.readthedocs.io/
-  dev_url: https://github.com/empymod/empymod
+  dev_url: https://github.com/emsig/empymod
 
 extra:
   recipe-maintainers:
