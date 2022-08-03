@@ -1,7 +1,7 @@
 About empymod
 =============
 
-Home: https://emsig.github.io
+Home: https://emsig.xyz
 
 Package license: Apache-2.0
 
@@ -11,7 +11,7 @@ Summary: Open-source full 3D electromagnetic modeller for 1D VTI media
 
 Development: https://github.com/emsig/empymod
 
-Documentation: https://empymod.readthedocs.io/
+Documentation: https://empymod.emsig.xyz
 
 The electromagnetic modeller empymod can model electric or magnetic
 responses due to a three-dimensional electric or magnetic source in a
