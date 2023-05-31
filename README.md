@@ -1,11 +1,11 @@
-About empymod
-=============
+About empymod-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/empymod-feedstock/blob/main/LICENSE.txt)
 
 Home: https://emsig.xyz
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/empymod-feedstock/blob/main/LICENSE.txt)
 
 Summary: Open-source full 3D electromagnetic modeller for 1D VTI media
 
