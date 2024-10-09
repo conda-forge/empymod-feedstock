@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - empymod=empymod.__main__:main
@@ -19,12 +19,13 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.10
+    - setuptools
     - setuptools_scm
   run:
-    - numba >=0.53
-    - python >=3.9
-    - scipy >=1.9
+    - numba
+    - python >=3.10
+    - scipy >=1.10
     - libdlf
     - scooby
 
