@@ -23,9 +23,10 @@ requirements:
     - setuptools
     - setuptools_scm
   run:
-    - numba
     - python >=3.10
+    - numpy
     - scipy >=1.10
+    - numba
     - libdlf
     - scooby
 
