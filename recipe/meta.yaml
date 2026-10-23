@@ -1,14 +1,14 @@
 {% set python_min = "3.11" %}
 {% set name = "empymod" %}
-{% set version = "2.6.0" %}
+{% set version = "2.6.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: afbd64507270b30c187c90402c550a88a3136cd793010216cf17f97df6c168f7
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 47571a60862d58d3562247efbcb232c044871540433a0eb181dd09a219482acf
 
 build:
   noarch: python
